@@ -1,0 +1,118 @@
+inherited PageCadastroBase: TPageCadastroBase
+  Caption = 'Cadastro'
+  TextHeight = 15
+  inherited pnlClient: TPanel
+    inherited pnlTop: TPanel
+      Height = 65
+      Padding.Bottom = 10
+      ExplicitLeft = 40
+      ExplicitTop = 40
+      ExplicitWidth = 931
+      ExplicitHeight = 65
+      inherited lblTitle: TLabel
+        Left = 888
+        Height = 55
+        Align = alRight
+        Alignment = taRightJustify
+      end
+    end
+    object SearchBox1: TSearchBox
+      Left = 40
+      Top = 105
+      Width = 931
+      Height = 27
+      Align = alTop
+      AutoSize = False
+      BevelWidth = 100
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Segoe UI Semibold'
+      Font.Style = []
+      Font.Quality = fqClearTypeNatural
+      ParentFont = False
+      CanUndoSelText = True
+      TabOrder = 2
+      TextHint = 'Pesquisar'
+      ButtonWidth = 27
+      ExplicitTop = 113
+    end
+    object pgcCadastro: TPageControl
+      AlignWithMargins = True
+      Left = 40
+      Top = 152
+      Width = 931
+      Height = 398
+      Margins.Left = 0
+      Margins.Top = 20
+      Margins.Right = 0
+      Margins.Bottom = 0
+      ActivePage = tabLista
+      Align = alClient
+      TabOrder = 3
+      ExplicitTop = 160
+      ExplicitHeight = 390
+      object tabLista: TTabSheet
+        Caption = 'Lista'
+      end
+      object tabDados: TTabSheet
+        Caption = 'Dados'
+        ImageIndex = 1
+      end
+    end
+  end
+  object ButtonImageList: TVirtualImageList
+    Images = <
+      item
+        CollectionIndex = 0
+        CollectionName = 'Novo'
+        Name = 'Novo'
+      end>
+    ImageCollection = ButtonImageCollection
+    Left = 480
+    Top = 328
+  end
+  object ButtonImageCollection: TImageCollection
+    Images = <
+      item
+        Name = 'Novo'
+        SourceImages = <
+          item
+            Image.Data = {
+              89504E470D0A1A0A0000000D49484452000000320000003208060000001E3F88
+              B1000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              00097048597300000B1100000B11017F645F9100000358494441546843ED994D
+              68134114C7E74D423FA82D9EB42D8AA0856A5AAD47D14345E8410F96AA31FD00
+              EB259182B4A8A782523CB4B7828A484DC17A68B589BD087AB22082A037A99A54
+              B478282A7EE1A1B6B6A4D919DFEC3E22EB6E42B449BA81FDC132EFFF261FF3CF
+              CE9BDDEC301717978C00B5B6F8FCD7AB8197F40AC68E3021EA38E715D4551084
+              104B8CF33990F2217EF7B5D793C12FD46521AD119F3FDC2199182DF4E033B0C8
+              A40CC6A26726499BB035E20B8C7462C738633CE3192B3C4232099D76662C03A5
+              E9F40EC30D46C6712C0240DDDFD3CC62A421101EC2A6DF5088102B0C78BF9489
+              C9F8BDB39F295B1076768DD4700DDA419343582B6594C619C606E3D1D045923A
+              1623BBFC233358177B48E2BBD8B958347485D4BAE00B84CFE3408749325C7C66
+              6623A1BD247538B529D0C4760A75D499A070DDE0001314EAE0A0775098C26204
+              31D546A1A7931D36CBAEA57EED8C1425AE11A7E11A711AAE11A7E11A711AAE11
+              A7E11A711A8E30B2EFC470B9EF64F84643E0E62BFC6377BBA9756C2375658D23
+              8C2C782A7B01580FFECF6B44D99D2C4D5C327AB2C711468089DD141A4868A228
+              6B1C5223601A87E0FF3E2E8718593BAE9175605A1D92B127787C34527F281A23
+              B148A8451DF148E8201E5B289DC2EE011D1AFE03BED9F29AFF615BF75859D5EA
+              7239491349CD3B8ABFE871928AA7DC933C4AB1898AC4F2CAF3A90BCB2453E4DD
+              4873F380F7EBA6DA0870D90A8C7B28BD06849412A6BD25E56D2FC74F2D5132FF
+              53EB5B756D1BE7702C3726141C90966472E5342574F26E04185451985B84347D
+              6EDE8DAC72791F9B7943E508C1BE6B20EE92D22948B1D7755DAD2AD14AF7E3AD
+              4725A54CE017F671060748E240454C72B84CCA0407F94B243DCFE253C11F94D2
+              B133F2139BD4B355291235F97EFE8B77BD7770281D24D5D3F6C7B391D0219259
+              61995A4288F7141AF0924E8A1C8DC508AE080F28D4012106D5FE84DA74A154C1
+              F0FBA359AF7496A9D5D83EBA1917EA390CF3BEF5A63156FF26127A9B6E6AA9DA
+              9A9BE85BA074462C6744DF8B9032881F672A7AA763BBFCEABBA612546D2C1A19
+              E793F63AA2CCA8DD53B5F18827E705A6726ECA0B822E6AF0C9680D40B20FAAF5
+              B2D2ACF7F8D77C8DC8050D815B5B255B7D847701F528E7A5A61D8E4FF5C48DDE
+              22442D346C6020ED2C71291E18FB0D75450B73D2E9FA7C0000000049454E44AE
+              426082}
+          end>
+      end>
+    Left = 352
+    Top = 328
+  end
+end

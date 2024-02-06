@@ -1,0 +1,25 @@
+----------------------------------------------------------------------
+Application : EAlerta 1.0
+Path        : C:\Fontes\Projetos\EAlerta\build\debug\
+CPU cores   : 8
+OS version  : Windows 11 (Version 23H2, OS Build 22631.3085, 64-bit Edition)
+Host        : SCHUSTER
+Username    : Thiago Schuster
+Started     : 06-02-2024 16:49:25 
+Debug mode  : On
+----------------------------------------------------------------------
+06-02-2024 16:49:25  [Exceção] (EFCreateError) : Cannot create file "". A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta
+06-02-2024 16:49:25  [Exceção] (ELogger) : Error trying to backup log file!
+06-02-2024 16:49:35  [Exceção] (EConvertError) : 'a' is not a valid integer value
+06-02-2024 16:50:16  [Exceção] (EConvertError) : 'a' is not a valid integer value
+----------------------------------------------------------------------
+Application : EAlerta 1.0
+Path        : C:\Fontes\Projetos\EAlerta\build\debug\
+CPU cores   : 8
+OS version  : Windows 11 (Version 23H2, OS Build 22631.3085, 64-bit Edition)
+Host        : SCHUSTER
+Username    : Thiago Schuster
+Started     : 06-02-2024 16:50:22 
+Debug mode  : On
+----------------------------------------------------------------------
+06-02-2024 16:50:28  [Exceção] (EConvertError) : 'a' is not a valid integer value

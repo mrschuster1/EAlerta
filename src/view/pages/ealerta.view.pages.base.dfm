@@ -1,0 +1,104 @@
+object PageBase: TPageBase
+  Left = 0
+  Top = 0
+  Align = alClient
+  BorderStyle = bsNone
+  Caption = 'EAlerta'
+  ClientHeight = 663
+  ClientWidth = 1011
+  Color = clBtnFace
+  DoubleBuffered = True
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Segoe UI Semibold'
+  Font.Style = []
+  Font.Quality = fqClearTypeNatural
+  OnCreate = FormCreate
+  TextHeight = 15
+  object pnlClient: TPanel
+    Left = 0
+    Top = 0
+    Width = 1011
+    Height = 663
+    Align = alClient
+    BevelOuter = bvNone
+    Padding.Left = 40
+    Padding.Top = 40
+    Padding.Right = 40
+    Padding.Bottom = 40
+    TabOrder = 0
+    object pnlTop: TPanel
+      Left = 40
+      Top = 40
+      Width = 931
+      Height = 73
+      Align = alTop
+      BevelOuter = bvNone
+      TabOrder = 0
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 1011
+      object lblTitle: TLabel
+        Left = 0
+        Top = 0
+        Width = 43
+        Height = 73
+        Margins.Left = 20
+        Margins.Top = 0
+        Margins.Right = 0
+        Margins.Bottom = 0
+        Align = alLeft
+        Caption = 'T'#237'tulo'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -17
+        Font.Name = 'Segoe UI Semibold'
+        Font.Style = []
+        Font.Quality = fqClearTypeNatural
+        ParentFont = False
+        Layout = tlCenter
+        ExplicitHeight = 23
+      end
+    end
+    object pnlBottom: TPanel
+      Left = 40
+      Top = 550
+      Width = 931
+      Height = 73
+      Align = alBottom
+      BevelOuter = bvNone
+      Padding.Top = 20
+      Padding.Bottom = 20
+      TabOrder = 1
+      ExplicitLeft = 0
+      ExplicitTop = 590
+      ExplicitWidth = 1011
+      object btnVoltar: TButton
+        Left = 0
+        Top = 20
+        Width = 75
+        Height = 33
+        Align = alLeft
+        Caption = '&Voltar'
+        TabOrder = 0
+        OnClick = btnVoltarClick
+      end
+      object btnFechar: TButton
+        AlignWithMargins = True
+        Left = 85
+        Top = 20
+        Width = 75
+        Height = 33
+        Margins.Left = 10
+        Margins.Top = 0
+        Margins.Right = 0
+        Margins.Bottom = 0
+        Align = alLeft
+        Caption = '&Fechar'
+        TabOrder = 1
+        OnClick = btnFecharClick
+      end
+    end
+  end
+end
